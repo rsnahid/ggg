@@ -1,0 +1,452 @@
+/* Google fonts  */
+/* Bebas Neue */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Alfa Slab One  */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Global selector  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: "Alfa Slab One", cursive; */
+}
+/* Header Part  */
+#header {
+  background: url(../img/heroBG.png) no-repeat center;
+  background-size: cover;
+  float: left;
+  width: 100%;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.menuBar {
+  width: 100%;
+  float: left;
+  padding: 30px 0;
+}
+.logoPart {
+  width: 40%;
+  float: left;
+}
+.logoPart img {
+  width: 50%;
+}
+.logoPart img:hover {
+  transform: scaleX(1.1);
+}
+.menuPart {
+  width: 60%;
+  float: left;
+}
+.deliveryPart {
+  width: 100%;
+  text-align: end;
+}
+.deliveryPart img {
+  width: 32px;
+  height: 22px;
+  margin-left: -41px;
+  position: absolute;
+}
+.deliveryPart span {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.navBar {
+  float: left;
+  width: 100%;
+  text-align: end;
+}
+.navBar ul {
+  margin-right: -37px;
+  position: relative;
+}
+.navBar li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 38px;
+}
+.navBar a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  float: left;
+}
+.navBar a:hover {
+  transform: scale(1.1);
+}
+
+/* Hero Part  */
+.heroPart {
+  float: left;
+  width: 100%;
+}
+.heroText {
+  float: left;
+  width: 30%;
+}
+.heroText img {
+  position: relative;
+  top: 115px;
+  width: 320px;
+}
+.heroText h1 {
+  font-size: 19px;
+  font-weight: 100;
+  display: inline-block;
+  padding: 5px 12px;
+  text-transform: uppercase;
+  margin-top: 75px;
+}
+.heroText h2 {
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  text-shadow: 1px 3px #fff;
+  color: #3d2514;
+  letter-spacing: 2px;
+}
+.burger {
+  font-size: 86px;
+}
+.week {
+  font-size: 50px;
+}
+.heroImage {
+  float: left;
+  width: 65%;
+}
+.heroImage img {
+  width: 100%;
+  margin-top: -117px;
+  margin-left: 117px;
+  margin-bottom: -115px;
+}
+
+/* Section One  */
+#offerPart {
+  width: 100%;
+  float: left;
+  background: url(../img/background1.png) no-repeat center;
+  background-size: cover;
+}
+.offers {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.offerOne {
+  width: 50%;
+  float: left;
+}
+.offerOne img {
+  width: 90%;
+  margin-left: 20px;
+}
+.offerOne img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.offerTwo {
+  width: 50%;
+  float: left;
+}
+.offerTwo img {
+  width: 90%;
+  margin-bottom: 20px;
+}
+.offerTwo img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.offerTextPart {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+}
+.offerTextPart span {
+  background: #ffc045;
+  padding: 4px 7px;
+  font-size: 18px;
+  color: #5e2a04;
+}
+.offerTextPart h3 {
+  font-size: 40px;
+  color: #5e2a04;
+  margin-top: 25px;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.offerTextPart p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 12px;
+}
+.orderPart {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: -50px;
+}
+.menuList {
+  float: left;
+  width: 33%;
+  margin-top: 123px;
+}
+.menuList img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.img1 {
+  width: 92%;
+  margin-left: 60px;
+}
+.img2 {
+  width: 78%;
+  margin-top: -18px;
+}
+.img3 {
+  width: 92%;
+  margin-left: 40px;
+}
+.orderList {
+  margin-top: 10px;
+}
+.orderList h3 {
+  font-size: 23px;
+  font-weight: 100;
+  color: #5e2a04;
+}
+.orderList p {
+  font-size: 11px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 8px;
+}
+.orderList button {
+  font-size: 11px;
+  color: #fff;
+  background: #eb2828;
+  border: none;
+  padding: 12px 14px;
+  margin-top: 25px;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+}
+.orderList button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.two {
+  margin-top: 17px;
+}
+
+/* Section Two  */
+#spacialEvents {
+  width: 100%;
+  float: left;
+  background: url(../img/background1.png) no-repeat center;
+  background-size: cover;
+}
+.upcomingEvents {
+  width: 95%;
+  height: 386px;
+  float: left;
+  padding: 20px 0;
+  box-shadow: 0px 8px 11px 12px #d8cece59;
+  margin-top: 133px;
+  /* margin-bottom: 30px; */
+  margin-left: 30px;
+}
+.eventText {
+  width: 40%;
+  float: left;
+  margin-top: 30px;
+  margin-left: 73px;
+}
+.eventText h4 {
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #000000c2;
+  line-height: 20px;
+}
+.eventText h5 {
+  font-size: 33px;
+  font-family: "Alfa Slab One", cursive;
+  color: #4f2709;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.eventText p {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  color: #000000b0;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.eventText img {
+  width: 45px;
+}
+.eventImage {
+  width: 50%;
+  float: left;
+}
+.eventImage img {
+  width: 95%;
+  margin-left: 37px;
+}
+
+/* Section Three  */
+#reservationPart {
+  width: 100%;
+  float: left;
+}
+.booking {
+  width: 55%;
+  float: left;
+  text-align: center;
+  margin-top: 111px;
+  margin-left: 256px;
+  margin-bottom: 158px;
+}
+#reservationPart img {
+  position: absolute;
+}
+.bgImag1 {
+  width: 250px;
+}
+.bgImag2 {
+  margin-left: 192px;
+  margin-top: 164px;
+  width: 226px;
+}
+.bgImag3 {
+  width: 226px;
+  margin-left: 1037px;
+  margin-top: 240px;
+}
+.booking h6 {
+  float: left;
+  width: 100%;
+  font-size: 25px;
+  color: #4f2709;
+}
+.booking span {
+  float: left;
+  width: 100%;
+  font-size: 28px;
+  color: #5e2a04;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+}
+.booking form {
+  width: 100%;
+  float: left;
+}
+.booking form input {
+  width: 227px;
+  height: 43px;
+  margin: 10px;
+  padding: 0px 10px;
+  border: 1px solid #998f8f63;
+  border-radius: 5px;
+}
+.submitBtn {
+  background: #ee0c0c;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.submitBtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+/* Footer Part  */
+#footer {
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.footerPart {
+  background: url(../img/footerBG.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+}
+.footerText {
+  width: 46%;
+  float: left;
+  margin-left: 50px;
+}
+.footerText p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  margin-top: 20px;
+  line-height: 16px;
+}
+.wlogo {
+  width: 50%;
+  margin-top: 50px;
+}
+.company {
+  width: 170px;
+  margin-top: 106px;
+}
+.mediaPart {
+  width: 31%;
+  float: left;
+  margin-top: 120px;
+  margin-left: 185px;
+}
+.contact {
+  margin-top: 10px;
+}
+.contact img {
+  width: 20px;
+  margin-right: 20px;
+}
+.contact span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 4px;
+}
+.socialMedia {
+  margin-top: 103px;
+  margin-left: 218px;
+}
+.socialMedia img {
+  width: 20px;
+  margin-left: 10px;
+}
+.socialMedia img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+  cursor: pointer;
+}
